@@ -1,0 +1,43 @@
+#main {
+  width: 350px;
+  height: auto;
+  margin: 0 auto;
+}
+
+img {
+  width: 80%;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.slick-slider {
+  width: 80%;
+  position: relative;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.slick-slide img {
+  min-width: 80%;
+  height: 350px;
+}
+
+/* 左右の矢印の色を調整 */
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+/* 左右の矢印の位置を調整 */
+.slick-next {
+  right: -22px;
+  z-index: 1;
+}
+.slick-prev {
+  left: 18px;
+  z-index: 1;
+}
+
+/* ドットの位置調整(画像の真ん中に) */
+.slick-dots {
+  width: 100%;
+}
